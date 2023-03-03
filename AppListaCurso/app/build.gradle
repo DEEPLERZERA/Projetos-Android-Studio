@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId "devandroid.maddo.applistacurso"
-        minSdk 26
-        targetSdk 33
+        minSdk 15
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
