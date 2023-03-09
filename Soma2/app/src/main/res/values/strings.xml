@@ -9,4 +9,7 @@
     <string name="subtra_o">SUBTRAÇÃO</string>
     <string name="subtra_o2">Subtração</string>
     <string name="multiplicar2">Multiplicar</string>
+    <string name="multiplicar3">MULTIPLICAR</string>
+    <string name="divis_o3">DIVISÃO</string>
+    <string name="subtra_o3">SUBTRAÇÃO</string>
 </resources>
