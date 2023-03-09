@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Soma</string>
+    <string name="ooooooooo">0</string>
+    <string name="somar">SOMAR</string>
+    <string name="calculadora_de_soma">Calculadora</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="divis_o">DIVISÃO</string>
+    <string name="button">Button</string>
+    <string name="subtra_o">SUBTRAÇÃO</string>
+    <string name="subtra_o2">Subtração</string>
+    <string name="multiplicar2">Multiplicar</string>
+</resources>
