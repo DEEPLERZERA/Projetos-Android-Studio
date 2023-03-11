@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#30C0D3"
+    android:fadeScrollbars="true"
+    android:focusable="auto"
     tools:context=".MainActivity">
 
     <TextView
@@ -60,8 +64,9 @@
         android:id="@+id/txtSoma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textColor="@color/wine"
         android:text="@string/calculadora_de_soma"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/edNum1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
