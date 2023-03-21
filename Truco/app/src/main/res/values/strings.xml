@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Truco</string>
+    <string name="time_a">Time A</string>
+    <string name="_0">0</string>
+    <string name="time_a2">Time A</string>
+    <string name="_02">0</string>
+    <string name="time_b">Time B</string>
+    <string name="truco_3">Truco +3</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="truco_34">Truco +3</string>
+    <string name="correu_1">Correu +1</string>
+    <string name="correu_12">Correu +1</string>
+</resources>
