@@ -35,11 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pessoa = new Pessoa();
-        //pessoa.setPrimeiroNome("Marco");
-        //pessoa.setSobreNome("Maddo");
-        //pessoa.setCursoDesejado("Android");
-        //pessoa.setTelefoneContato("11-22323996");
-
         outraPessoa = new Pessoa();
         outraPessoa.setPrimeiroNome("Daniel");
         outraPessoa.setSobreNome("Borges");
@@ -54,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         btnLimpar = findViewById(R.id.btnLimpar);
         btnSalvar = findViewById(R.id.btnSalvar);
         btnFinalizar = findViewById(R.id.btnFinalizar);
-
 
         editPrimeiroNome.setText(outraPessoa.getPrimeiroNome());
         editSobreNomeAluno.setText(outraPessoa.getSobreNome());
@@ -74,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         btnFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Volte sempre",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Volte sempre", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
@@ -87,10 +81,9 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setCursoDesejado(editNomeCurso.getText().toString());
                 pessoa.setTelefoneContato(editTelefoneContato.getText().toString());
 
-                Toast.makeText(MainActivity.this, "Salvo"+pessoa.toString(),Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Salvo" + pessoa.toString(), Toast.LENGTH_LONG).show();
             }
         });
-
 
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
@@ -109,9 +102,8 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Telefone de Contato: ";
 
-
-        Log.i("POOAndroid", "Objeto pessoa: "+pessoa.toString());
-        Log.i("POOAndroid","Objeto outraPessoa: "+outraPessoa.toString());
+        Log.i("POOAndroid", "Objeto pessoa: " + pessoa.toString());
+        Log.i("POOAndroid", "Objeto outraPessoa: " + outraPessoa.toString());
 
     }
 }
